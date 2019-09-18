@@ -1,0 +1,51 @@
+.card {
+  width: 70%;
+  margin: 0 auto 4rem;
+  color: $color-primary-white;
+  background-size: cover;
+  background-position: 20rem;
+  overflow: hidden;
+  box-shadow: $box-shadow;
+
+  &__header {
+    background-color: $color-primary-dark;
+    font-size: 10rem;
+  
+    & > h1 {
+      font-size: 2.2rem;
+      padding: 1.5rem 2rem 1.5rem 3.5rem;
+      letter-spacing: .4rem;
+      text-transform: uppercase;
+    }
+  }
+
+  &__overlay {
+    height: 100%;
+    background: linear-gradient(to right, $color-primary-dark 20%, rgba(0, 0, 0, 0.602));
+  }
+
+  &__info {
+    padding: 2rem 2.5rem;
+    height: 100%;
+    width: 40%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    & > h3 {
+      letter-spacing: .3rem;
+      font-size: 2.7rem;
+      border-bottom: 1px solid $color-primary-white;
+      padding-bottom: .7rem;
+      margin-bottom: 1rem;
+    }
+    
+    & > p {
+      font-size: 1.7rem;
+      margin-bottom: 3rem;
+    }
+  } 
+
+}

@@ -1,0 +1,22 @@
+.header {
+  width: 100%;
+  background-color: $color-primary-dark;
+  background: url(https://i.imgur.com/UqgQyHh.jpg);
+  background-size: cover;
+
+  &__overlay {
+    padding: 6rem 0;
+    background: rgba(0, 0, 0, 0.527);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & > h1 {
+      color: white;
+      font-size: 3.5rem;
+      letter-spacing: .3rem;
+      width: 40%;
+    }
+  }
+}

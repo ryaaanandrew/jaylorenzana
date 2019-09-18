@@ -1,0 +1,33 @@
+.contact {
+  height: 65vh;
+  background-image: url(https://i.imgur.com/UqgQyHh.jpg);
+  background-size: cover;
+
+  &__overlay {
+    background: linear-gradient(to bottom, $color-primary-white, rgba(243, 243, 243, 0.671), $color-primary-white);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__info {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  &__bubble {
+    height: 11rem;
+    width: 11rem;
+    border-radius: 50%;
+    background-color: $color-primary-dark;
+    color: $color-primary-white;
+    box-shadow: $box-shadow;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

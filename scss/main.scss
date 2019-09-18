@@ -1,0 +1,32 @@
+$color-primary-dark: rgb(15, 15, 15);
+$color-primary-white: rgb(243, 243, 243);
+
+$box-shadow: 2px 22px 14px -13px rgba(0, 0, 0, 0.493);
+
+@import './typography';
+
+@import './components/nav';
+@import './components/card';
+
+@import './layout/header';
+@import './layout/about';
+@import './layout/portofolio';
+@import './layout/contact';
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  background-color: $color-primary-dark;
+}
+
+.wrapper {
+  padding-top: 8rem;
+  width: 95%;
+  margin: 0 auto;
+  background-color: $color-primary-white;
+}
